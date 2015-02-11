@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0">
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp"
+        android:background="#FFF5EE"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:paddingTop="40dp"
+        android:id="@+id/innerlayout">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="STOP"
+            android:textSize="50dp"
+            android:id="@+id/Stopbutton"
+            android:layout_marginTop="28dp"
+            android:background="#FF0000"
+            />
+     </RelativeLayout>
+
+</LinearLayout>
